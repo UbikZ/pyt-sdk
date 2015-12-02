@@ -10,6 +10,9 @@ use Guzzle\Http\StaticClient;
  */
 class Connect extends AbstractManager
 {
+    /**
+     * @return null|string
+     */
     public function requestToken()
     {
         $token = null;
