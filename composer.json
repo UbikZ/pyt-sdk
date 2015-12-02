@@ -1,0 +1,13 @@
+{
+    "name": "ubikz/pyt-sdk",
+    "type": "library",
+    "require": {
+        "php": ">5.4",
+        "guzzle/guzzle": "^3.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ubikz\\Pyt\\": ["src/"]
+        }
+    }
+}
