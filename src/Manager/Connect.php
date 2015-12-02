@@ -3,7 +3,6 @@
 namespace Ubikz\Pyt\Manager;
 
 use Guzzle\Http\StaticClient;
-use Ubikz\Exception\ErrorRequestTokenException;
 
 /**
  * Class Connect
