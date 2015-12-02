@@ -29,7 +29,7 @@ class Pyt
         $config = $parameters[1];
         $url =
             $config->getOntimeUrl() . '/api/v' . $config->getApiVersion() . '/' .
-            $action . implode('/', $query);
+            $action . '?' . http_build_query($query);
         try {
             $request = (new Client($url))->createRequest('GET', $url, [
                 'Authorization' => 'Bearer ' . $config->getToken(),
